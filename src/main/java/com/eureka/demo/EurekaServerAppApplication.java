@@ -16,7 +16,7 @@ public class EurekaServerAppApplication {
 
 	public static void main(String[] args) {
 		
-        System.setProperty("server.connection-timeout","120000");
+//        System.setProperty("server.connection-timeout","120000");
         
 		SpringApplication.run(EurekaServerAppApplication.class, args);
 		logger.info("EUREKA SERVER STARTED...");
